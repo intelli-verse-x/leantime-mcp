@@ -1,0 +1,29 @@
+{
+  "name": "@intelli-verse-x/leantime-mcp",
+  "version": "0.1.0",
+  "description": "MCP server bridging Leantime to Claude/Cursor/Gas Town agents via JSON-RPC",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/server.js",
+  "bin": {
+    "leantime-mcp": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "node --test --import tsx test/*.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
