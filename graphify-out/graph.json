@@ -614,6 +614,7 @@
     {
       "label": "README.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -625,6 +626,7 @@
     {
       "label": "Configuration",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L29",
       "_origin": "ast",
@@ -636,6 +638,7 @@
     {
       "label": "leantime-mcp",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -647,6 +650,7 @@
     {
       "label": "Minting a Bearer token (Leantime \u2265 11)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L38",
       "_origin": "ast",
@@ -658,6 +662,7 @@
     {
       "label": "Running in Kubernetes",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L85",
       "_origin": "ast",
@@ -669,6 +674,7 @@
     {
       "label": "Running locally",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L58",
       "_origin": "ast",
@@ -680,6 +686,7 @@
     {
       "label": "Tools exposed",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L13",
       "_origin": "ast",
@@ -691,6 +698,7 @@
     {
       "label": "Why not just wait for the paid plugin?",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L99",
       "_origin": "ast",
@@ -702,6 +710,7 @@
     {
       "label": "Why this exists",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L6",
       "_origin": "ast",
@@ -790,6 +799,7 @@
     {
       "label": "AGENTS.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -801,6 +811,7 @@
     {
       "label": "Agent instructions",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -812,6 +823,7 @@
     {
       "label": "Code memory (Graphify) \u2014 use this before grepping",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L4",
       "_origin": "ast",
@@ -823,6 +835,7 @@
     {
       "label": "Ops",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L31",
       "_origin": "ast",
@@ -834,6 +847,7 @@
     {
       "label": "Without MCP (primary for this tier)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L9",
       "_origin": "ast",
@@ -2022,5 +2036,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "97b51cc42fb8f0bd2f7b5fbd7e7c3a4a3483988a"
+  "built_at_commit": "768fe39fed9baa3166f2e4a264736cf02bc895c1"
 }
